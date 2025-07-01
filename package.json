@@ -2,7 +2,12 @@
   "name": "@doc-simplify/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev": "nx run-many -t=serve --all --maxParallel=5",
+    "build": "nx run-many -t=lint --all && nx run-many -t=build --all --maxParallel=5",
+    "prettier:write": "npx prettier --write .",
+    "prettier:check": "npx prettier --check ."
+  },
   "private": true,
   "dependencies": {
     "next": "~15.2.4",
