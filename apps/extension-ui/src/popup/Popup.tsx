@@ -18,7 +18,9 @@ export default function Popup() {
           { type: 'SCRAPE_PAGE' },
           (response) => {
             if (response?.text) {
-              setSummary('🚀 Summary coming soon... (connect backend next)');
+              // setSummary('🚀 Summary coming soon... (connect backend next)');
+              console.log('RES=> ', response.text);
+              setSummary(response.text);
             } else {
               setSummary('⚠️ Failed to fetch content.');
             }
