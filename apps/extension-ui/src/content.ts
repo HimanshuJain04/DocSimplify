@@ -8,7 +8,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 
 function scrapeReadableText() {
   const elements = Array.from(
-    document.querySelectorAll('p, h1, h2, h3, li, td')
+    document.querySelectorAll('p, h1, h2, h3, li, td') // TODO: add div as well
   );
   const visibleText = elements
     .filter((el) => el.offsetParent !== null && el.innerText.trim() !== '')

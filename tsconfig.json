@@ -11,6 +11,15 @@
     },
     {
       "path": "./apps/extension-ui"
+    },
+    {
+      "path": "./ui"
+    },
+    {
+      "path": "./package/ui"
+    },
+    {
+      "path": "./package/hooks"
     }
   ]
 }
