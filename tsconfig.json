@@ -20,6 +20,24 @@
     },
     {
       "path": "./package/hooks"
+    },
+    {
+      "path": "./package/api-utils"
+    },
+    {
+      "path": "./package/env"
+    },
+    {
+      "path": "./package/services"
+    },
+    {
+      "path": "./package/types"
+    },
+    {
+      "path": "./package/utils"
+    },
+    {
+      "path": "./package/validators"
     }
   ]
 }
