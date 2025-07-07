@@ -38,6 +38,9 @@
     },
     {
       "path": "./package/validators"
+    },
+    {
+      "path": "./package/constants"
     }
   ]
 }
